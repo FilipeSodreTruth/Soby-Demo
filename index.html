@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOPY - Clean Revolution</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+
+    <header class="w-full">
+      <nav>
+  <img src="./images/sopy_letters_only.png" alt="Sopy Logo" class="logo" draggable="false">
+        <a href="comprar.html" class="btn radius">Comprar Agora</a>
+      </nav>
+    </header>
+
+    <div id="earth-container"></div>
+
+    <div id="smooth-wrapper"> <!-- required for ScrollSmoother -->
+      <div id="smooth-content">
+        <!-- Seção de vídeo full-screen fora do container limitado -->
+        <section id="video-intro-section" aria-label="Introdução Sopy">
+          <video id="video-gif" src="images/space.mp4" alt="Sopy Animation" draggable="false" autoplay loop muted></video>
+        </section>
+
+        <div id="main" class="w-full">
+
+          <div id="section1">
+            <h1 class="heading">SOPY CLEAN REVOLUTION</h1>
+          </div>
+
+          <div id="section2" class="w-full">
+            <div class="content-wrapper">
+              <h2 class="heading">Dissolve o Impossível</h2>
+              <p>A cápsula que transforma qualquer limpeza em uma experiência extraordinária. Dissolução instantânea, poder máximo.</p>
+                <a href="comprar.html" class="btn radius">Descobrir Agora</a>
+            </div>
+            <div class="feature-wrapper">
+              <div class="feature-box radius">
+                <div class="feature-name">Dissolução Instantânea</div>
+                <div class="feature-detail">
+                  Em contato com a água, nossa fórmula revolucionária se ativa em segundos.
+                </div>
+              </div>
+              <div class="feature-box radius">
+                <div class="feature-name">Poder 3x Maior</div>
+                <div class="feature-detail">
+                  Concentração ultra-alta que elimina sujeira impossível.
+                </div>
+              </div>
+              <div class="feature-box radius">
+                <div class="feature-name">100% Biodegradável</div>
+                <div class="feature-detail">
+                  Cuida do planeta enquanto cuida da sua casa.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="section3">
+            <h2 class="heading">Por que escolher SOPY?</h2>
+            <div class="content-wrapper">
+              <div class="content">
+                 <p>
+                  Cada cápsula é uma revolução em limpeza, desenvolvida com a mais alta tecnologia para ser poderosa e ecológica.
+                </p>
+                <p>
+                  Nossa fórmula patenteada se adapta ao tipo de sujeira, garantindo resultados visíveis em menos de 30 segundos, enquanto protege o planeta.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="section4">
+            <img src="./images/5.png" alt="Soby Pouch Azul" class="img1 radius" draggable="false">
+            <img src="./images/6.png" alt="Soby Pote Verde" class="img2 radius" draggable="false">
+            <img src="./images/3.png" alt="Soby Capsula Verde" class="img3 radius" draggable="false">
+          </div>
+
+          <div id="section5">
+            <h2 class="heading">Nossos Produtos</h2>
+            <div class="product-section">
+              <div class="product">
+                <img src="./images/2.png" alt="Sopy Aqua Blu" draggable="false">
+                <div class="name">Sopy Aqua Blu</div>
+                <div class="price">R$89,90</div>
+              </div>
+              <div class="product">
+                <img src="./images/1.png" alt="Sopy Citrus Lush" draggable="false">
+                <div class="name">Sopy Citrus Lush</div>
+                <div class="price">R$89,90</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <section id="section6" class="w-full">
+                    <div class="content-wrapper">
+                        <h2 class="heading">Junte-se à Revolução</h2>
+                        <p>Faça parte do movimento por uma limpeza mais inteligente e sustentável. Experimente Soby e sinta a diferença no suas roupas e no mundo.</p>
+                        <a href="comprar.html" class="btn radius">Comprar Agora</a>
+                    </div>
+                </section>
+
+        <footer class="w-full">
+            <img src="./images/sopy_letters_only.png" class="logo" alt="Sopy Logo" draggable="false">
+            <div class="social">
+              <a href="https://www.tiktok.com/@sopyoficial" target="_blank"><img src="./images/tiktok_blue_26.png" alt="Tiktok" draggable="false"></a>
+              <a href=" https://www.instagram.com/oficialsopy/" target="_blank"><img src="./images/icon1_blue_29AAE1.png" alt="Instagram" draggable="false"></a>
+            </div>
+        </footer>
+
+      </div>
+    </div>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <!-- local js -->
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
